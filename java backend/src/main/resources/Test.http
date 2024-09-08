@@ -1,0 +1,20 @@
+POST http://localhost:8080/api/auth/login
+content-type: application/json
+
+{
+  "username": "abi6@gamil.com",
+  "password": "123"
+}
+
+###
+POST http://localhost:8080/api/auth/signup
+content-type: application/json
+
+{
+  "email": "abi3@gamil.com",
+  "fullName": "abishan jerad",
+  "bio": "student ",
+  "password": "123"
+}
+
+###
